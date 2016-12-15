@@ -1,5 +1,5 @@
 ##RobuFix热修复方案
-> 结合美团Robust原理和Instant Run框架开发而成。
+结合美团Robust原理和Instant Run框架开发而成。
 
 ###RobuFix简介
 RobuFix通过对项目所有方法进行代码预注入，然后加载生成的补丁包，替换指定方法内容，从而修复问题。目前只支持方法级别的修复，暂不支持新增类，方法，类变量。
@@ -47,7 +47,7 @@ RobuFix通过对项目所有方法进行代码预注入，然后加载生成的�
 - compare存放解压出来的对比包文件，打补丁包时候自动生成。
 - patchClass存放打出的补丁文件（.class文件）
 
-![image](https://github.com/heiBin/RobuFix/tree/master/image/filePicture.png)
+![image](https://github.com/heiBin/RobuFix/blob/master/image/filePicture.png)
 
 #####打补丁包
 
@@ -63,7 +63,7 @@ RobuFix通过对项目所有方法进行代码预注入，然后加载生成的�
 
 `./app/build/robufix/patch.jar`要改成补丁包所在的文件路径，然后重启应用，就可以看到效果了:)
 
-![image](https://github.com/heiBin/RobuFix/tree/master/image/patch.gif)
+![image](https://github.com/heiBin/RobuFix/blob/master/image/patch.gif)
 
 
 
