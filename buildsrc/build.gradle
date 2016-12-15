@@ -1,0 +1,14 @@
+apply plugin: 'groovy'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile gradleApi()
+    compile 'org.codehaus.groovy:groovy:2.1.5'
+    compile 'com.android.tools.build:gradle:2.2.0'
+    compile group: 'org.ow2.asm', name: 'asm', version: '5.0.3'
+    compile "commons-io:commons-io:1.4"
+    compile 'commons-codec:commons-codec:1.6'
+}
