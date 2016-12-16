@@ -2,10 +2,6 @@ package com.duoyi.provider.robufix;
 
 import android.content.Context;
 
-/**
- * Created by duoyi on 2016/11/14.
- */
-
 public class SampleApplicationLike {
     public Context context;
 

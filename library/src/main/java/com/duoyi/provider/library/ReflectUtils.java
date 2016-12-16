@@ -6,9 +6,6 @@ import java.lang.reflect.Method;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 
-/**
- * Created by Lianghaibin on 2016/11/25.
- */
 public class ReflectUtils {
     public static void Check(Object object){
         int a = 2;

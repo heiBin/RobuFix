@@ -1,18 +1,12 @@
 package com.duoyi.provider.library;
 
 import android.content.Context;
-import android.util.Log;
 
 import java.io.File;
-import java.lang.reflect.Field;
 import java.util.List;
 import java.util.NoSuchElementException;
 
 import dalvik.system.DexClassLoader;
-
-/**
- * Created by duoyi on 2016/11/14.
- */
 
 public class RobuFix {
     private static final String DEX_OPT_DIR = "robuFixOpt";

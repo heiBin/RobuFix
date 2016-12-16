@@ -6,10 +6,6 @@ import android.os.Environment;
 
 import com.duoyi.provider.library.RobuFix;
 
-/**
- * Created by duoyi on 2016/11/14.
- */
-
 public class RobuApplication extends Application{
 
     @Override
